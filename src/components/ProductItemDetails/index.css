@@ -1,0 +1,147 @@
+/* Write your CSS here */
+/* Write your CSS here */
+
+* {
+  font-family: 'Roboto';
+}
+.product-sections {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  max-width: 1110px;
+  margin-top: 60px;
+}
+
+.product-details-container {
+  display: flex;
+}
+.bold-content {
+  font-weight: 600;
+  font-size: 20px;
+  color: #12022f;
+
+  margin-right: 5px;
+}
+.product-details {
+  color: #475569;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.similar-items-container {
+  margin-top: 60px;
+}
+.product-image {
+  width: 40%;
+  border-radius: 15px;
+  margin-right: 40px;
+}
+.product-title {
+  margin-top: 0px;
+  font-size: 65px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #12022f;
+}
+.rating-main-class {
+  display: flex;
+  align-items: center;
+}
+.add-to-cart-container {
+  display: flex;
+  align-items: center;
+}
+.product-price {
+  line-height: 0.5;
+  font-weight: 700;
+  font-size: 22px;
+  color: #12022f;
+}
+.rating-class {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding: 5px 15px;
+  margin: 0;
+  color: white;
+}
+.product-rating {
+  margin: 2px;
+}
+.start-image {
+  width: 20px;
+}
+.product-reviews {
+  font-size: 17px;
+  margin-left: 12px;
+  color: #12022f;
+}
+.similar-products-list {
+  display: flex;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.product-description {
+  color: #616e7c;
+  font-weight: 400;
+  font-size: 20px;
+  width: 485px;
+}
+
+.decrement-btn {
+  background-color: transparent;
+  color: #475569;
+  font-size: 20px;
+  margin-right: 20px;
+  outline: none;
+  border: 0px;
+}
+.cart-count {
+  margin-right: 20px;
+  font-size: 20px;
+  color: #475569;
+}
+.increment-btn {
+  background-color: transparent;
+  color: #475569;
+  font-size: 20px;
+  margin-right: 20px;
+  outline: none;
+  border: 0px;
+}
+.add-to-cart-button {
+  background-color: #3b82f6;
+  color: white;
+  border: 0px;
+  outline: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.error-view-container {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.error-img {
+  width: 50%;
+}
+.error-msg {
+  font-weight: 700;
+
+  color: #1e293b;
+}
+.continue-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: 0px;
+  outline: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
